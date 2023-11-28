@@ -43,3 +43,27 @@ To ensure the fix works correctly, here are some straightforward tests to add:
 
 - Trie Size Test:
   Verify that the trie size is correct after adding null-terminated strings.
+
+#### 3.
+
+Netflix isn't the only company conducting tests of this kind; Amazon, Google, Microsoft, and Facebook also engage in similar practices. Here's an example of what each company might do in chaos engineering:
+
+- ##### Amazon:
+
+**Chaos Engineering at Amazon Web Services (AWS):** Amazon employs chaos engineering techniques to assess the resilience of its cloud services, including EC2 servers, RDS databases, and other AWS components.
+**Fault Simulations:** Amazon simulates failures like instance breakdowns, delays in network requests, or the loss of connections between services to evaluate the system's response.
+
+- ##### Google:
+
+**Chaos Engineering at Google:** Google also embraces chaos engineering to test the reliability of its services, including the Google Cloud Platform (GCP) and other internal services.
+**Production Experiments:** Google conducts experiments in production, intentionally introducing failures to assess the resilience of its distributed systems.
+
+- ##### Microsoft:
+
+**Chaos Engineering at Microsoft Azure:** Microsoft incorporates chaos engineering into Azure, its cloud service. This involves resilience testing for virtual machines, databases, and other Azure services.
+**Fault Scenarios:** Microsoft engineers simulate fault scenarios such as network errors, delays in requests, or node failures to evaluate application stability.
+
+- ##### Facebook:
+
+**Chaos Engineering at Facebook:** Facebook employs chaos engineering practices to test the reliability of its online social services.
+**Fault Injection:** Facebook teams intentionally inject faults, such as errors in communication between services, to observe how the system reacts and recovers.
