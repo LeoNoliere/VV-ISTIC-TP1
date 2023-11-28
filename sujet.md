@@ -12,9 +12,12 @@
 
 ## Answers
 
-2.
+1. In February 1991, during Gulf War a bug occured in the software system of the MIM-104 Patriot. This defense system was used to counter Iraqi-launched Scud missiles.
+This bug affected the ability of the system to correctly and precisely track the elapsed time since its activation.
+Every time the system was turned on for a certain period, a time anomaly occured. Because the time value was manipulated in binary in one 24-bit register plus a binary fraction in a second 24-bit register, however the fraction 1/10 cannot be perfectly represented by this system. The result of this local bug turned into a failure while attempting to detect the scud missile, and 28 dead soldiers.
 
-[Link of page](https://issues.apache.org/jira/projects/COLLECTIONS/issues/COLLECTIONS-714?filter=allopenissues)
+
+2. [Link of page](https://issues.apache.org/jira/projects/COLLECTIONS/issues/COLLECTIONS-714?filter=allopenissues)
 
 ##### Bug:
 
@@ -37,3 +40,5 @@ To ensure the fix works correctly, here are some straightforward tests to add:
 
 - Trie Size Test:
   Verify that the trie size is correct after adding null-terminated strings.
+
+
