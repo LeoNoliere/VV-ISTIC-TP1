@@ -67,3 +67,8 @@ Netflix isn't the only company conducting tests of this kind; Amazon, Google, Mi
 
 **Chaos Engineering at Facebook:** Facebook employs chaos engineering practices to test the reliability of its online social services.
 **Fault Injection:** Facebook teams intentionally inject faults, such as errors in communication between services, to observe how the system reacts and recovers.
+
+
+### 4.
+
+A formal specification provides a clear and consistent definition of the WebAssembly language. It establishes a definitive guide for developers. It gives interoperability, that means code compiled to WebAssembly should behave consistently regardless of where it runs.
